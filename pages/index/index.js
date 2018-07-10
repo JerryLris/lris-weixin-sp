@@ -50,5 +50,17 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  goPageAreaList:function(e){
+    console.log("跳转地区列表-"+e);
+    wx.navigateTo({
+      url: '../list/list',
+    })
+  },
+  goPageAreaList: function (e) {
+    console.log("跳珍珠区列表-" + e);
+    wx.navigateTo({
+      url: '../pearl/pearl',
+    })
   }
 })

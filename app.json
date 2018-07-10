@@ -1,6 +1,8 @@
 {
   "pages": [
+    "pages/pearl/pearl",
     "pages/index/index",
+    "pages/myindex/index",
     "pages/logs/logs",
     "pages/list/list",
     "pages/operation/operation"

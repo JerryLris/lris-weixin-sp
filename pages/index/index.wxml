@@ -9,4 +9,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="g-view-css">
+    <text class='g-a-css' bindtap='goPageAreaList'>跳转地区列表</text>
+  </view>
+  <view class="g-view-css">
+    <text class='g-a-css' bindtap='goPageAreaList'>跳转珍珠列表</text>
+  </view>
 </view>

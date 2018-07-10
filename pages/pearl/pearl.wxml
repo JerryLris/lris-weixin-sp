@@ -1,0 +1,31 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">1</view>
+    <view class="th">2</view>
+    <view class="th">3</view>
+    <view class="th">4</view>
+    <view class="th">5</view>
+    <view class="th">6</view>
+    <view class="th">7</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.f01}}</view>
+      <view class="td">{{item.f02}}</view>
+      <view class="td">{{item.f03}}</view>
+      <view class="td">{{item.f04}}</view>
+      <view class="td">{{item.f05}}</view>
+      <view class="td">{{item.f06}}</view>
+      <view class="td">{{item.f07}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.f01}}</view>
+      <view class="td">{{item.f02}}</view>
+      <view class="td">{{item.f03}}</view>
+      <view class="td">{{item.f04}}</view>
+      <view class="td">{{item.f05}}</view>
+      <view class="td">{{item.f06}}</view>
+      <view class="td">{{item.f07}}</view>
+    </view>
+  </block>
+</view>
